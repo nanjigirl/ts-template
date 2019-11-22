@@ -6,7 +6,7 @@ import Hello from './component/Hello';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Hello />
+      <Hello name="TypeScript" enthusiasmLevel={10} />
     </div>
   );
 }
