@@ -1,10 +1,3 @@
-/*
- * @Description: 添加文件描述
- * @Author: chenxue12
- * @LastEditors: chenxue12
- * @Date: 2019-09-25 16:06:25
- * @LastEditTime: 2019-09-27 16:26:03
- */
 const path = require('path');
 const merge = require('webpack-merge');
 const baseWebpackConfig = require('./webpack.base');
