@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "@babel/preset-env", // 按需使用polyfill
+        "@babel/preset-react", // jsx支持
+        "@babel/preset-typescript" // jsx支持
+    ],
+    "plugins":[
+        "@babel/plugin-syntax-dynamic-import", // 按需加载
+        ["@babel/plugin-proposal-class-properties", { "loose": true }], // class中的箭头函数中的this指向组件
+        [
+          "import",
+          {
+            "libraryName": "antd",
+            "libraryDirectory": "es",
+            "style": true
+          }
+        ]
+    ]
+}

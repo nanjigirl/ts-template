@@ -13,7 +13,7 @@ module.exports = merge.smart(baseWebpackConfig, {
     devtool: "source-map",
     entry: {
         app: path.join(__dirname, "../src/index.tsx"),
-        vendor: ["react", "react-dom"], // 不变的代码分包
+        vendor: ["react", "react-dom", "react-router-dom", "antd"], // 不变的代码分包
     },
     output: {
         filename: "js/[name].[contenthash:8].js", // contenthash：只有模块的内容改变，才会改变hash值
@@ -71,7 +71,7 @@ module.exports = merge.smart(baseWebpackConfig, {
             },
         }),
         new MiniCssExtractPlugin({
-            filename: "css/[name].[contenthash:8].css",
+            filename: "assets/css/[name].[contenthash:8].css",
             // chunkFilename: '[name].[contenthash:8].chunk.css'
         }),
         // gzip压缩
