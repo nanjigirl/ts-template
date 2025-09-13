@@ -14,7 +14,7 @@
     "react-dom": "^16.9.0",
     "react-router-config": "^5.1.0",
     "react-router-dom": "^5.1.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --progress --open --hot --config ./config/webpack.dev.js",
@@ -67,7 +67,7 @@
     "copy-webpack-plugin": "^5.0.4",
     "cross-env": "^6.0.0",
     "css-loader": "^3.2.0",
-    "eslint": "^6.4.0",
+    "eslint": "^9.32.0",
     "eslint-loader": "^3.0.1",
     "eslint-plugin-jsx-control-statements": "^2.2.1",
     "eslint-plugin-react": "^7.14.3",
